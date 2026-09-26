@@ -127,3 +127,414 @@ footer {
         font-size: 36px;
     }
 }
+/* ==============================
+   HOMEPAGE SECTIONS
+   ============================== */
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.section-heading h2 {
+    font-size: 38px;
+    color: #8f4f5a;
+    margin-bottom: 15px;
+}
+
+.section-heading p {
+    color: #6b575c;
+}
+
+.section-subtitle {
+    color: #b76e79 !important;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px !important;
+}
+
+
+/* ==============================
+   HERO
+   ============================== */
+
+.hero {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fbe8ed;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.hero-subtitle {
+    color: #b76e79;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 64px;
+    line-height: 1.15;
+    color: #8f4f5a;
+    margin-bottom: 25px;
+}
+
+.hero-description {
+    max-width: 650px;
+    margin: 0 auto 35px;
+    font-size: 18px;
+    color: #5d4a4f;
+}
+
+
+/* ==============================
+   BUTTON
+   ============================== */
+
+.btn {
+    display: inline-block;
+    background-color: #b76e79;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #8f4f5a;
+    transform: translateY(-2px);
+}
+
+
+/* ==============================
+   POPULAR SERVICES
+   ============================== */
+
+.services-preview {
+    padding: 90px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.service-container {
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    padding: 35px 25px;
+    background-color: #fff8fa;
+    border-radius: 15px;
+    border: 1px solid #f2dce1;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(183, 110, 121, 0.15);
+}
+
+.service-card h3 {
+    color: #8f4f5a;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    color: #6b575c;
+}
+
+
+/* ==============================
+   ABOUT PREVIEW
+   ============================== */
+
+.about-preview {
+    padding: 90px 20px;
+    background-color: #fbe8ed;
+    text-align: center;
+}
+
+.about-preview > div {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.about-preview h2 {
+    color: #8f4f5a;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.about-preview p {
+    color: #5d4a4f;
+    margin-bottom: 30px;
+}
+
+
+/* ==============================
+   BEAUTICIANS
+   ============================== */
+
+.beauticians-section {
+    padding: 90px 20px;
+    background-color: #ffffff;
+}
+
+.beautician-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.beautician-card {
+    text-align: center;
+    padding: 30px 25px;
+    background-color: #fff8fa;
+    border-radius: 15px;
+    border: 1px solid #f2dce1;
+}
+
+.beautician-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #fbe8ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.beautician-card h3 {
+    color: #8f4f5a;
+    margin-bottom: 5px;
+}
+
+.beautician-role {
+    color: #b76e79 !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.beautician-card p {
+    color: #6b575c;
+}
+
+
+/* ==============================
+   WHY CHOOSE US
+   ============================== */
+
+.why-us-section {
+    padding: 90px 20px;
+    background-color: #fbe8ed;
+}
+
+.why-us-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.why-card {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.why-icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.why-card h3 {
+    color: #8f4f5a;
+    margin-bottom: 10px;
+}
+
+.why-card p {
+    color: #6b575c;
+    font-size: 14px;
+}
+
+
+/* ==============================
+   BOOKING CTA
+   ============================== */
+
+.booking-section {
+    padding: 90px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.booking-section h2 {
+    color: #8f4f5a;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.booking-section p {
+    color: #6b575c;
+    margin-bottom: 30px;
+}
+
+
+/* ==============================
+   MOBILE RESPONSIVE
+   ============================== */
+
+@media (max-width: 900px) {
+
+    .service-container,
+    .beautician-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-us-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero h2 {
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .service-container,
+    .beautician-container,
+    .why-us-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .section-heading h2,
+    .about-preview h2,
+    .booking-section h2 {
+        font-size: 30px;
+    }
+}
+/* ==============================
+   SERVICES PAGE
+   ============================== */
+
+.page-header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fbe8ed;
+}
+
+.page-header h2 {
+    font-size: 48px;
+    color: #8f4f5a;
+    margin-bottom: 15px;
+}
+
+.page-header p:not(.section-subtitle) {
+    color: #5d4a4f;
+    font-size: 17px;
+}
+
+.services-list {
+    padding: 80px 20px;
+    background-color: #fff8fa;
+}
+
+.services-list .service-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.services-list .service-card {
+    background-color: #ffffff;
+    padding: 35px 30px;
+    border-radius: 18px;
+    border: 1px solid #f2dce1;
+    box-shadow: 0 5px 20px rgba(183, 110, 121, 0.08);
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.services-list .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(183, 110, 121, 0.15);
+}
+
+.services-list .service-card h3 {
+    color: #8f4f5a;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.services-list .service-card p {
+    color: #6b575c;
+    margin-bottom: 18px;
+}
+
+.services-list .service-card .service-price {
+    color: #b76e79;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.services-list .service-card .btn {
+    margin-top: 5px;
+}
+
+
+/* ==============================
+   SERVICES MOBILE
+   ============================== */
+
+@media (max-width: 900px) {
+
+    .services-list .service-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .services-list .service-container {
+        grid-template-columns: 1fr;
+    }
+
+    .page-header h2 {
+        font-size: 38px;
+    }
+
+}
