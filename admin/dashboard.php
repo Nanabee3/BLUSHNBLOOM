@@ -5,6 +5,9 @@ require_once __DIR__ . '/../includes/auth.php';
 
 requireAdmin();
 
+$userCount = $pdo->query("SELECT COUNT(*) FROM users")->fetchColumn();
+$serviceCount = $pdo->query("SELECT COUNT(*) FROM services")->fetchColumn();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +22,11 @@ requireAdmin();
 
     <p>Welcome to the admin dashboard.</p>
 
-    <p>You are logged in as an administrator.</p>
+    <h2>Dashboard Statistics</h2>
+
+    <p>Total Users: <?php echo $userCount; ?></p>
+
+    <p>Total Services: <?php echo $serviceCount; ?></p>
 
 </body>
 </html>
